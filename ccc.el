@@ -14,7 +14,8 @@
 ;; 色が設定される
 (defvar-local ccc-buffer-local-cursor-color nil)
 ;; 設定はされていないが参照はされているので定義
-(defvar ccc-default-cursor-color nil)
+;; skkからも設定されているかどうかしか使われていない(skk-cursor.el)
+(defvar ccc-default-cursor-color t)
 
 ;; 空で良いはず
 ;; after-init-hookでskkから呼ばれるのでそれまでに用意する
