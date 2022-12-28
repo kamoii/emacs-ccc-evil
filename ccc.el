@@ -18,6 +18,7 @@
 
 ;; 空で良いはず
 ;; after-init-hookでskkから呼ばれるのでそれまでに用意する
+
 ;;;###autoload
 (defun ccc-setup ()
   (message "Use ccc.el implementationfor evil"))
@@ -28,6 +29,7 @@
 ;; カーソルの色はバッファローカルなものが ~ccc-buffer-local-cursor-color~ に設定されていれば其、なければ(ccc-frame-cursor-color)
 ;;
 ;; ccc-buffer-local-cursor-color変数を設定時にevilのカーソル色に設定するので実装は不要のはず。
+
 ;;;###autoload
 (defun ccc-update-buffer-local-frame-params (&optional buffer))
 
