@@ -7,7 +7,7 @@
 
 ## Elpaca使っている場合の導入方法
 
-本家のddskkリポを取ってくる設定：
+本家のddskkリポから取ってくる設定：
 
 ```elisp
 (elpaca (ccc :repo "https://github.com/skk-dev/ddskk" :files ("ccc.el")))
