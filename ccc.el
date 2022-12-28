@@ -22,7 +22,7 @@
 
 ;;;###autoload
 (defun ccc-setup ()
-  (message "Use ccc.el implementationfor evil"))
+  (message "Use ccc.el implementation for evil"))
 
 ;; 本来はpost-command-hookに登録されている
 ;; 設定に基づきローカルのcursor/forground/backgroundの色を変える
@@ -43,9 +43,9 @@
 ;; ~ccc-buffer-local-cursor-color~ 変数に色を設定
 ;; 反映のためにリフレッシュ関数も呼び出し
 (defun ccc-set-buffer-local-cursor-color (color-name)
-    (setq ccc-buffer-local-cursor-color (or color-name (ccc-frame-cursor-color)))
-    (setq-local evil-insert-state-cursor (list ccc-buffer-local-cursor-color 'box))
-    (evil-refresh-cursor))
+  (setq ccc-buffer-local-cursor-color (or color-name (ccc-frame-cursor-color)))
+  (setq-local evil-insert-state-cursor (list ccc-buffer-local-cursor-color 'box))
+  (evil-refresh-cursor))
 
 ;; カーソル色オフにする機能
 ;; 本来のカーソル色(ccc-frame-cursor-color)を設定
