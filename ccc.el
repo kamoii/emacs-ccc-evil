@@ -3,7 +3,7 @@
 ;; Copyright (C) 2022 kamoii
 
 ;; Author: kamoii
-;; Version: 0.1
+;; Version: 1.43
 ;; Keywords: skk, evil
 ;; URL: https://github.com/kamoii/emacs-ccc-evil
 
